@@ -2,6 +2,9 @@ package com.kavinschool.calc;
 
 public class Calc {
 	private double x, y;
+	private String compName;
+	private String ssnNumber;
+	private String address;
 
 	Calc(double a, double b) {
 		x = a;
@@ -32,12 +35,12 @@ public class Calc {
 		return x * x * x;
 	}
 
-	public double square() {
+	/*public double square() {
 		return x * x ;
 	}
 
 	public double pow() {
 		return (int)x ^ (int)y;
-	}
+	}*/
 
 }
