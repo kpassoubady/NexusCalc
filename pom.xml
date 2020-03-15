@@ -45,6 +45,18 @@
             </exclusions>
         </dependency>
     </dependencies>
+    <distributionManagement>
+        <repository>
+            <id>nexus-releases</id>
+            <name>Releases</name>
+            <url>http://ec2-54-221-104-253.compute-1.amazonaws.com:8081/repository/kavinschool-java-snapshots/</url>
+        </repository>
+        <snapshotRepository>
+            <id>nexus-snapshots</id>
+            <name>Snapshot</name>
+            <url>http://ec2-54-221-104-253.compute-1.amazonaws.com:8081/repository/kavinschool-java-releases/</url>
+        </snapshotRepository>
+    </distributionManagement>
     <build>
         <pluginManagement>
             <plugins>
