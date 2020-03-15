@@ -45,20 +45,20 @@
             </exclusions>
         </dependency>
     </dependencies>
-    <!--
+    
     <distributionManagement>
         <repository>
-            <id>nexus-releases</id>
-            <name>Releases</name>
+            <id>kavinschool-java-releases</id>
+            <name>kavinschool-java-releases</name>
             <url>http://ec2-54-221-104-253.compute-1.amazonaws.com:8081/repository/kavinschool-java-releases/</url>
         </repository>
         <snapshotRepository>
-            <id>nexus-snapshots</id>
-            <name>Snapshot</name>
+            <id>kavinschool-java-snapshots</id>
+            <name>kavinschool-java-snapshots</name>
             <url>http://ec2-54-221-104-253.compute-1.amazonaws.com:8081/repository/kavinschool-java-snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
-    -->
+    
     <build>
         <pluginManagement>
             <plugins>
